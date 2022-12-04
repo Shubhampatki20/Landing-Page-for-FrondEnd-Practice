@@ -1,0 +1,89 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+nav div img{
+    margin-left: 50px;
+    margin-top: 50px;
+    width: 150px;
+}
+div ul{
+    width: 700px;
+    margin-left: -80px;
+}
+div ul li{ 
+    display: inline;
+    position: relative;
+    list-style-type: none;
+    left: 20rem;
+    top: -40px;
+    margin-left: 70px;
+    font-size: 20px;
+    color: rgb(198, 173, 173);
+}
+.list li:first-child{
+    color:black;
+    font-weight: 500;
+}
+.button-group{
+    float: right;
+    position:relative;
+    left: -50px;
+    top: -75px;
+}
+.nav-button{
+    padding: 15px;
+    width: 150px;
+    color: white;
+    background-color: rgb(42, 42, 173);
+    border-radius:20px;
+    font-size: 15px;
+}
+.banner-container div h1{
+    color: rgb(82, 82, 134);
+    width: 525px;
+    font-size: 90px;
+    margin-top: 60px;
+    margin-left: 50px;
+}
+
+.banner-container div h1 span{
+    color: rgb(13, 13, 231);
+}
+
+.description{
+    font-size: 25px;
+    color: rgb(198, 173, 173);
+    margin-left: 65px;
+    margin-top: 25px;
+    width: 40%;
+}
+.banner-container button {
+    margin-left: 50px;
+    margin-top: 50px;
+    width: 250px;
+    font-size: 25px;
+}
+.footerimg img{
+    /* float: right; */
+    height: 500px;
+    max-width: auto;
+    float: right;
+    margin-top: -500px;
+}
+@media screen and (max-width: 1181px){
+    .footerimg img{
+        float: left;
+        margin-top: 150px;
+    }
+    .nav-button{
+       
+    }
+}
+@media screen and (max-width: 1119px){
+    .nav-button{
+       margin-top: 600px;
+       position: fixed;
+    }
+}
